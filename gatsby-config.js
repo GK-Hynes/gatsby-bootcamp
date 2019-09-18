@@ -9,5 +9,14 @@ module.exports = {
     title: "JAMstack Developer",
     author: "Gerard Hynes",
   },
-  plugins: ["gatsby-plugin-sass"],
+  plugins: [
+    "gatsby-plugin-sass",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "source",
+        path: `${__dirname}/src/`,
+      },
+    },
+  ],
 };
