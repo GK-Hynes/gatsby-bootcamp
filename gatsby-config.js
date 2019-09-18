@@ -5,7 +5,9 @@
  */
 
 module.exports = {
-  plugins: [
-    "gatsby-plugin-sass"
-  ]
-}
+  siteMetadata: {
+    title: "JAMstack Developer",
+    author: "Gerard Hynes",
+  },
+  plugins: ["gatsby-plugin-sass"],
+};
