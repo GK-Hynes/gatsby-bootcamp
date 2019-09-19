@@ -3,7 +3,7 @@
 }
 
 .title {
-  color: #000000;
+  color: #1a202c;
   font-size: 3rem;
   text-decoration: none;
 }
@@ -15,16 +15,16 @@
 }
 
 .navItem {
-  color: #999999;
+  color: #a0aec0;
   font-size: 0.9rem;
   margin-right: 1.3rem;
   text-decoration: none;
 
   &:hover {
-    color: #666666;
+    color: #718096;
   }
 }
 
 .activeNavItem {
-  color: #333333;
+  color: #2d3748;
 }
